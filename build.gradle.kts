@@ -14,6 +14,12 @@ dependencies {
     val springBootVersion = "2.6.7"
     implementation("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
 
+    val springfox = "2.9.2"
+    implementation("io.springfox:springfox-swagger2:${springfox}")
+    implementation("io.springfox:springfox-swagger-ui:${springfox}")
+
+
+
     // https://mvnrepository.com/artifact/org.mockito/mockito-all
     testImplementation("org.mockito:mockito-all:1.8.4")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
